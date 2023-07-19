@@ -1,9 +1,9 @@
 '''fibonacci sequence upto n'''
 
-n = int(input("enter the required number : "))
+n = int(input("enter number of terms required : "))
 n1,n2 = 0,1
 
-if n<0:
+if n<=0:
     print("enter positive integer")
 else:
     print("fibonacci sequence :\n")
